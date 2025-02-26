@@ -1,9 +1,9 @@
+# data_tests.py
+
+from urls import BASE_URL, ORDER_PAGE_URL, DZEN_URL
+
 user_1 = ['Саша', 'Гусева', 'ул. Байкальская, 333', 'Черкизовская', '79500692887', 'Звонить с 09:00 до 13:00']
 user_2 = ['Сергей', 'Половников', 'пр. Мира, 105', 'Сокольники', '79149209745', 'Предварительно позвонить! Спит ребенок']
-
-BASE_URL = 'https://qa-scooter.praktikum-services.ru/'
-ORDER_PAGE_URL = 'https://qa-scooter.praktikum-services.ru/order'
-DZEN_URL = 'https://dzen.ru/?yredirect=true'
 
 expected_texts = {
     'faq1': 'Сутки — 400 рублей. Оплата курьеру — наличными или картой.',
